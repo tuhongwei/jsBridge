@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "jsBridge",
   "main": "index.js",
-  "browser": "dist/index.umd.js",
+  "browser": "dist/jsBridge.umd.js",
   "directories": {
     "example": "examples",
     "test": "tests"
