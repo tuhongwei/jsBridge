@@ -79,7 +79,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		webView.addJavascriptInterface(new MainJavascrotInterface(webView.getCallbacks(), webView), "android");
 		webView.setGson(new Gson());
-		webView.loadUrl("file:///android_asset/demo.html");
+		webView.loadUrl("http://192.168.15.36:5000");
 
         User user = new User();
         Location location = new Location();
