@@ -10,10 +10,7 @@
 
   window.JSBridge = {};
 
-  window.JSBridge.callJS = function (_ref) {
-    var action = _ref.action,
-        params = _ref.params,
-        whoAmI = _ref.whoAmI;
+  window.JSBridge.callJS = function (action, params, whoAmI) {
     params = JSON.parse(JSON.stringify(params));
     return window.JSBridge[action](params, whoAmI);
   };
